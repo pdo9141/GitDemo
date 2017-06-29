@@ -1,0 +1,16 @@
+https://mva.microsoft.com/en-us/training-courses/using-git-with-visual-studio-2013-jump-start-8306?l=WGG4QtYy_8604984382
+
+01) Install chocolatey, go to https://chocolatey.org/ and find the cmd.exe (run in admin) to install
+02) Open Windows PowerShell (as admin), type command: cinst poshgit
+03) If you are prompted with "Do you want to run the script?([Y]es/[N]o/[P]rint)", type Y
+04) Once installation is complete, run command: set-executionpolicy remotesigned
+05) If you are prompted with do you really want to change execution policy? type Y 
+06) Restart Windows PowerShell (as admin)
+07) Type command: git config --global user.name "Phillip Do"
+08) Type command: git config --global user.email "pdo9141@gmail.com"
+09) Type command: cinst notepadplusplus (optional)
+10) Type command: git config --global core.editor notepad.exe (or notepad++.exe)
+11) Type command: cinst git-credential-winstore
+12) Type command: cinst p4merge
+13) Type command: git config --global merge.tool p4merge
+14) Type command: git config --global mergetool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"
