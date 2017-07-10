@@ -20,6 +20,23 @@ Git Command
 13) Disregard changes: git checkout -- <file>...
 14) The .gitignore file specifies files git needs to ignore
 15) After initializing repo, to change all untracked files to tracked: git add -A 
+16) What is a Branch? Just a file that is a pointer to a commit.
+	Create branch: git branch [branch name]
+	View branches: get branch
+	Switch branches: git checkout [branch name]
+	Shortcut create and checkout branch: git checkout -b hotfix
+	Delete branch: git branch -d hotfix
+17) Switching branches: git checkout testing (HEAD is now pointing at testing)
+18) Use command: "gitk --all" to see visual representation of history of logs
+19) Learn branching online: http://learngitbranching.js.org/?NODEMO or http://learngitbranching.js.org (get tutorial)
+20) Merging, you "git checkout master" then "git merge [story]"
+21) Merge: git merge hotfix
+22) Hotfix workflow: create hotfix branch, make your changes, do a "git checkout master" then "git merge hotfix"
+23) Get latest: git fetch origin
+24) Leverage remote branches and repositories to work on more time consuming projects
+25) Why rebase instead of merge? Code is all the same in the end, you get linear history. You can't rebase in VS
+
+
 
 Git in Visual Studio
 01) Connect using the plug in icon (Connect to Team Projects, in Team Explorer - Home)
