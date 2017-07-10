@@ -6,6 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{B0BFDC98-3ABB-4E6E-9E80-1DDE6D036AB4}"
 	ProjectSection(SolutionItems) = preProject
 		InstallSteps.txt = InstallSteps.txt
+		Readme.txt = Readme.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{8389F584-806C-441E-BC85-1170C8B7D581}"
