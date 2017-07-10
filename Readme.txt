@@ -34,7 +34,7 @@ Git Command
 22) Hotfix workflow: create hotfix branch, make your changes, do a "git checkout master" then "git merge hotfix"
 23) Get latest: git fetch origin
 24) Leverage remote branches and repositories to work on more time consuming projects
-25) Why rebase instead of merge? Code is all the same in the end, you get linear history. You can't rebase in VS
+25) Why rebase instead of merge? Code is all the same in the end, you get linear history.
 
 
 
