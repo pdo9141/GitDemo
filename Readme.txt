@@ -47,4 +47,6 @@ Git in Visual Studio
 05) View "Incoming Commits" to see if you need to Fetch or Pull
 06) When you click the "Sync" button, it will pull down locally, do a Fetch, do a Merge, do a Push
 07) Keep in mind that VS still can't do everything Git command does but most common workflows work
-08) 
+08) Most of the time clicking the "Sync" button is fine
+09) You'll probably always create branches for your changes
+10) You can still go to the Git command and work, use "Open Folder in File Explorer" and Powershell
