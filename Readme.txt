@@ -50,3 +50,8 @@ Git in Visual Studio
 08) Most of the time clicking the "Sync" button is fine
 09) You'll probably always create branches for your changes
 10) You can still go to the Git command and work, use "Open Folder in File Explorer" and Powershell
+11) Right-click the Repository and select New Local Branch From… Enter develop as the new destination branch name, and select origin/master as the source branch. 
+	I'd recommend not checking Track remote branch. This will track changes made to develop and will automatically apply them to master. This is not ideal since 
+	we want to control changes, through code reviews, into the master branch. For some reason, Visual Studio will tick this box by default. Coincidentally, if 
+	you create a branch from local instead of origin, the check box won't be there, which is our preference. The problem with creating new branches based on local 
+	branches is that they could be stale, so you need to remember to pull or sync before you create a new branch.
