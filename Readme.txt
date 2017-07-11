@@ -55,3 +55,9 @@ Git in Visual Studio
 	we want to control changes, through code reviews, into the master branch. For some reason, Visual Studio will tick this box by default. Coincidentally, if 
 	you create a branch from local instead of origin, the check box won't be there, which is our preference. The problem with creating new branches based on local 
 	branches is that they could be stale, so you need to remember to pull or sync before you create a new branch.
+12) Push: Copies all pending commits from my local machine to the server for the branch that I'm working on. 
+13) Pull: Copies and commits from the server branch down to my local branch. In our case, we have no commits on our server branch yet.
+14) Fetch: Fetches information about any new branches that have been created on the server. In our case, we have all the branches since we're the only ones working in the 
+	repository at the moment. If another developer had created and published a branch, fetch would get the details about that branch and make you aware of it, if you needed to use it.
+15) Sync: Sync is something Microsoft came up with. The sync keyword does not exist in Git. It performs multiple Git command—namely, fetch, pull, and then push, for your 
+	convenience. If we wanted to get our changes onto the server branch, we could select either push or sync, and both would achieve the same objective for us.
