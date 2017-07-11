@@ -36,8 +36,6 @@ Git Command
 24) Leverage remote branches and repositories to work on more time consuming projects
 25) Why rebase instead of merge? Code is all the same in the end, you get linear history.
 
-
-
 Git in Visual Studio
 01) Connect using the plug in icon (Connect to Team Projects, in Team Explorer - Home)
 02) To default directory of where repositories are cloned, click plug in icon, click down arrow to the right of Connect, click Settings, click Git Settings
@@ -49,3 +47,4 @@ Git in Visual Studio
 05) View "Incoming Commits" to see if you need to Fetch or Pull
 06) When you click the "Sync" button, it will pull down locally, do a Fetch, do a Merge, do a Push
 07) Keep in mind that VS still can't do everything Git command does but most common workflows work
+08) 
