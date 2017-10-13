@@ -6,6 +6,9 @@ Git Command
 04) Show history: git log --oneline
 05) Show status of working directory: git status (unmodified, modified, staged)
 06) Stage file: git add index.html
+	git add -A (stages All)
+	git add . (stages new and modified, without deleted)
+	git add -u (stages modified and deleted, without new)
 07) Commit (if you don't use -m, editor will display where enter comments there): git commit -m "Add link to MVA"
 	This commits to your local repository not online public repo
 08) Commit to public repo: git push or git push origin
